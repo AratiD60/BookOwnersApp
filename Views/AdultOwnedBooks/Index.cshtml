@@ -1,0 +1,19 @@
+﻿@model IEnumerable<BookOwnersApp.Models.Book>
+@{
+    ViewData["Title"] = "Index";
+}
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<h4>@ViewBag.Message</h4>
+<h3 class="text-success">@ViewBag.SuccessMessage</h3>
+<div>
+    <h2>Books Owned by Adults</h2>
+    <table class="table">
+        
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.name</td>
+            </tr>
+        }
+    </table>
+</div>

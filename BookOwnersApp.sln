@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookOwnersApp", "BookOwnersApp.csproj", "{94570E8F-8667-4C13-B59C-2D51A7199C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookOwnersAPI", "..\BookOwnersAPI\BookOwnersAPI.csproj", "{081AEE48-F84B-4570-84D6-2169D011150E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94570E8F-8667-4C13-B59C-2D51A7199C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94570E8F-8667-4C13-B59C-2D51A7199C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94570E8F-8667-4C13-B59C-2D51A7199C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94570E8F-8667-4C13-B59C-2D51A7199C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081AEE48-F84B-4570-84D6-2169D011150E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081AEE48-F84B-4570-84D6-2169D011150E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081AEE48-F84B-4570-84D6-2169D011150E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081AEE48-F84B-4570-84D6-2169D011150E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C803AC1-E565-4E90-80AC-E779A22327D9}
+	EndGlobalSection
+EndGlobal
